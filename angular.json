@@ -118,8 +118,13 @@
               "devServerTarget": "my-recipe-api:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "my-recipe-api"
 }

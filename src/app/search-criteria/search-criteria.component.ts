@@ -9,7 +9,12 @@ import { EventEmitter } from '@angular/core';
   styleUrls: ['./search-criteria.component.css']
 })
 export class SearchCriteriaComponent implements OnInit {
-
+  userInput;
+  calories;
+  vegetarian;
+  vegan;
+  treenuts;
+  
 
 constructor() { }
 @Output() submitted = new EventEmitter();

@@ -8,10 +8,10 @@ import { RecipeService } from '../recipe.service';
 })
 
 export class FavoritesPageComponent implements OnInit {
- 
+     loading;
 
-  constructor(private Recipe: RecipeService) {
-    
+
+  constructor(public Recipe: RecipeService) {
   }
 
   ngOnInit() { 
